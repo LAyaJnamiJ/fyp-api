@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "values",
+  "collectionName": "coefficients",
   "info": {
-    "singularName": "value",
-    "pluralName": "values",
-    "displayName": "Value"
+    "singularName": "coefficient",
+    "pluralName": "coefficients",
+    "displayName": "Coefficient"
   },
   "options": {
     "draftAndPublish": true
@@ -15,8 +15,9 @@
       "type": "json",
       "required": true
     },
-    "coefficient": {
-      "type": "float"
+    "value": {
+      "type": "float",
+      "required": true
     }
   }
 }

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * value router.
+ * coefficient router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::value.value');
+module.exports = createCoreRouter('api::coefficient.coefficient');

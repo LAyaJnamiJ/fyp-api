@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * value service.
+ * coefficient service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::value.value');
+module.exports = createCoreService('api::coefficient.coefficient');
